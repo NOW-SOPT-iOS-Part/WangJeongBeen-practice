@@ -16,11 +16,6 @@
 		217647D42BBE670600E6A4D3 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 217647CB2BBE670500E6A4D3 /* Pretendard-SemiBold.otf */; };
 		217647D52BBE670600E6A4D3 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 217647CC2BBE670600E6A4D3 /* Pretendard-Medium.otf */; };
 		217647D62BBE670600E6A4D3 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 217647CD2BBE670600E6A4D3 /* Pretendard-Regular.otf */; };
-		2189883C2BC114840034244C /* LoginViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189883B2BC114840034244C /* LoginViewController2.swift */; };
-		2189883E2BC1148C0034244C /* WelcomeViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2189883D2BC1148C0034244C /* WelcomeViewController2.swift */; };
-		218988462BC127FB0034244C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 218988452BC127FB0034244C /* SnapKit */; };
-		218988482BC132D30034244C /* ScrollViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218988472BC132D30034244C /* ScrollViewPractice.swift */; };
-		2189884B2BC132EA0034244C /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 2189884A2BC132EA0034244C /* Then */; };
 		21F04F642BBBF26B002A7957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F04F632BBBF26B002A7957 /* AppDelegate.swift */; };
 		21F04F662BBBF26B002A7957 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F04F652BBBF26B002A7957 /* SceneDelegate.swift */; };
 		21F04F682BBBF26B002A7957 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F04F672BBBF26B002A7957 /* LoginViewController.swift */; };
@@ -40,9 +35,6 @@
 		217647CB2BBE670500E6A4D3 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		217647CC2BBE670600E6A4D3 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		217647CD2BBE670600E6A4D3 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
-		2189883B2BC114840034244C /* LoginViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController2.swift; sourceTree = "<group>"; };
-		2189883D2BC1148C0034244C /* WelcomeViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController2.swift; sourceTree = "<group>"; };
-		218988472BC132D30034244C /* ScrollViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPractice.swift; sourceTree = "<group>"; };
 		21F04F602BBBF26B002A7957 /* 34th-Sopt-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "34th-Sopt-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F04F632BBBF26B002A7957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F04F652BBBF26B002A7957 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +43,6 @@
 		21F04F6C2BBBF26D002A7957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21F04F6F2BBBF26D002A7957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F04F712BBBF26D002A7957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21F04F772BBD4E03002A7957 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				218988462BC127FB0034244C /* SnapKit in Frameworks */,
-				2189884B2BC132EA0034244C /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,25 +70,6 @@
 				217647C92BBE670500E6A4D3 /* Pretendard-Thin.otf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		2189883F2BC114920034244C /* 2nd */ = {
-			isa = PBXGroup;
-			children = (
-				2189883B2BC114840034244C /* LoginViewController2.swift */,
-				2189883D2BC1148C0034244C /* WelcomeViewController2.swift */,
-				218988472BC132D30034244C /* ScrollViewPractice.swift */,
-			);
-			path = 2nd;
-			sourceTree = "<group>";
-		};
-		218988402BC114990034244C /* 1st */ = {
-			isa = PBXGroup;
-			children = (
-				21F04F672BBBF26B002A7957 /* LoginViewController.swift */,
-				21F04F772BBD4E03002A7957 /* WelcomeViewController.swift */,
-			);
-			path = 1st;
 			sourceTree = "<group>";
 		};
 		21F04F572BBBF26B002A7957 = {
@@ -123,8 +93,6 @@
 			children = (
 				21F04F632BBBF26B002A7957 /* AppDelegate.swift */,
 				21F04F652BBBF26B002A7957 /* SceneDelegate.swift */,
-				218988402BC114990034244C /* 1st */,
-				2189883F2BC114920034244C /* 2nd */,
 				217647D72BBE671100E6A4D3 /* Fonts */,
 				21F04F692BBBF26B002A7957 /* Main.storyboard */,
 				21F04F6C2BBBF26D002A7957 /* Assets.xcassets */,
@@ -150,10 +118,6 @@
 			dependencies = (
 			);
 			name = "34th-Sopt-Seminar";
-			packageProductDependencies = (
-				218988452BC127FB0034244C /* SnapKit */,
-				2189884A2BC132EA0034244C /* Then */,
-			);
 			productName = "34th-Sopt-Seminar";
 			productReference = 21F04F602BBBF26B002A7957 /* 34th-Sopt-Seminar.app */;
 			productType = "com.apple.product-type.application";
@@ -182,10 +146,6 @@
 				Base,
 			);
 			mainGroup = 21F04F572BBBF26B002A7957;
-			packageReferences = (
-				218988442BC127FB0034244C /* XCRemoteSwiftPackageReference "SnapKit" */,
-				218988492BC132EA0034244C /* XCRemoteSwiftPackageReference "Then" */,
-			);
 			productRefGroup = 21F04F612BBBF26B002A7957 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,11 +182,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				218988482BC132D30034244C /* ScrollViewPractice.swift in Sources */,
-				21F04F682BBBF26B002A7957 /* LoginViewController.swift in Sources */,
-				21F04F782BBD4E03002A7957 /* WelcomeViewController.swift in Sources */,
-				2189883E2BC1148C0034244C /* WelcomeViewController2.swift in Sources */,
-				2189883C2BC114840034244C /* LoginViewController2.swift in Sources */,
 				21F04F642BBBF26B002A7957 /* AppDelegate.swift in Sources */,
 				21F04F662BBBF26B002A7957 /* SceneDelegate.swift in Sources */,
 			);
@@ -446,38 +401,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		218988442BC127FB0034244C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		218988492BC132EA0034244C /* XCRemoteSwiftPackageReference "Then" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/devxoul/Then";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		218988452BC127FB0034244C /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 218988442BC127FB0034244C /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		2189884A2BC132EA0034244C /* Then */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 218988492BC132EA0034244C /* XCRemoteSwiftPackageReference "Then" */;
-			productName = Then;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21F04F582BBBF26B002A7957 /* Project object */;
 }

@@ -16,6 +16,14 @@
 		217647D42BBE670600E6A4D3 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 217647CB2BBE670500E6A4D3 /* Pretendard-SemiBold.otf */; };
 		217647D52BBE670600E6A4D3 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 217647CC2BBE670600E6A4D3 /* Pretendard-Medium.otf */; };
 		217647D62BBE670600E6A4D3 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 217647CD2BBE670600E6A4D3 /* Pretendard-Regular.otf */; };
+		2199C1512BD3895100913F9B /* LoginView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1502BD3895100913F9B /* LoginView3.swift */; };
+		2199C1542BD38AC500913F9B /* LoginViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1532BD38AC500913F9B /* LoginViewController3.swift */; };
+		2199C1562BD38D2300913F9B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1552BD38D2300913F9B /* ChatViewController.swift */; };
+		2199C1592BD38D4E00913F9B /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1582BD38D4E00913F9B /* ChatTableViewCell.swift */; };
+		2199C15B2BD399C200913F9B /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C15A2BD399C100913F9B /* ChatModel.swift */; };
+		2199C15D2BD3A6F100913F9B /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C15C2BD3A6F100913F9B /* ItemCollectionViewCell.swift */; };
+		2199C15F2BD3AA8A00913F9B /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C15E2BD3AA8A00913F9B /* ItemViewController.swift */; };
+		2199C1612BD3AD1200913F9B /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2199C1602BD3AD1200913F9B /* ItemModel.swift */; };
 		21F04F642BBBF26B002A7957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F04F632BBBF26B002A7957 /* AppDelegate.swift */; };
 		21F04F662BBBF26B002A7957 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F04F652BBBF26B002A7957 /* SceneDelegate.swift */; };
 		21F04F6B2BBBF26B002A7957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F04F692BBBF26B002A7957 /* Main.storyboard */; };
@@ -40,6 +48,14 @@
 		217647CB2BBE670500E6A4D3 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		217647CC2BBE670600E6A4D3 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		217647CD2BBE670600E6A4D3 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		2199C1502BD3895100913F9B /* LoginView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView3.swift; sourceTree = "<group>"; };
+		2199C1532BD38AC500913F9B /* LoginViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController3.swift; sourceTree = "<group>"; };
+		2199C1552BD38D2300913F9B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2199C1582BD38D4E00913F9B /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		2199C15A2BD399C100913F9B /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		2199C15C2BD3A6F100913F9B /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		2199C15E2BD3AA8A00913F9B /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		2199C1602BD3AD1200913F9B /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		21F04F602BBBF26B002A7957 /* 34th-Sopt-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "34th-Sopt-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F04F632BBBF26B002A7957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F04F652BBBF26B002A7957 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +99,29 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		2199C1522BD3895800913F9B /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				2199C1502BD3895100913F9B /* LoginView3.swift */,
+				2199C1532BD38AC500913F9B /* LoginViewController3.swift */,
+				2199C1572BD38D2A00913F9B /* ChatView */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		2199C1572BD38D2A00913F9B /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				2199C1552BD38D2300913F9B /* ChatViewController.swift */,
+				2199C1582BD38D4E00913F9B /* ChatTableViewCell.swift */,
+				2199C15A2BD399C100913F9B /* ChatModel.swift */,
+				2199C15E2BD3AA8A00913F9B /* ItemViewController.swift */,
+				2199C15C2BD3A6F100913F9B /* ItemCollectionViewCell.swift */,
+				2199C1602BD3AD1200913F9B /* ItemModel.swift */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
 		21F04F572BBBF26B002A7957 = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +144,13 @@
 				21F04F632BBBF26B002A7957 /* AppDelegate.swift */,
 				21F04F652BBBF26B002A7957 /* SceneDelegate.swift */,
 				21FC1F8F2BCA65D900B831D8 /* 1st */,
+				21FC1F822BCA653600B831D8 /* 2nd */,
+				2199C1522BD3895800913F9B /* 3rd */,
 				217647D72BBE671100E6A4D3 /* Fonts */,
 				21F04F692BBBF26B002A7957 /* Main.storyboard */,
 				21F04F6C2BBBF26D002A7957 /* Assets.xcassets */,
 				21F04F6E2BBBF26D002A7957 /* LaunchScreen.storyboard */,
 				21F04F712BBBF26D002A7957 /* Info.plist */,
-				21FC1F822BCA653600B831D8 /* 2nd */,
 			);
 			path = "34th-Sopt-Seminar";
 			sourceTree = "<group>";
@@ -222,13 +262,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2199C1612BD3AD1200913F9B /* ItemModel.swift in Sources */,
 				21FC1F932BCA65D900B831D8 /* LoginViewController.swift in Sources */,
 				21FC1F882BCA653600B831D8 /* ScrollViewPractice.swift in Sources */,
+				2199C15D2BD3A6F100913F9B /* ItemCollectionViewCell.swift in Sources */,
+				2199C1512BD3895100913F9B /* LoginView3.swift in Sources */,
 				21FC1F922BCA65D900B831D8 /* WelcomeViewController.swift in Sources */,
 				21FC1F862BCA653600B831D8 /* WelcomeViewController2.swift in Sources */,
+				2199C1592BD38D4E00913F9B /* ChatTableViewCell.swift in Sources */,
+				2199C15F2BD3AA8A00913F9B /* ItemViewController.swift in Sources */,
+				2199C1542BD38AC500913F9B /* LoginViewController3.swift in Sources */,
 				21FC1F872BCA653600B831D8 /* LoginViewController2.swift in Sources */,
 				21F04F642BBBF26B002A7957 /* AppDelegate.swift in Sources */,
+				2199C1562BD38D2300913F9B /* ChatViewController.swift in Sources */,
 				21F04F662BBBF26B002A7957 /* SceneDelegate.swift in Sources */,
+				2199C15B2BD399C200913F9B /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

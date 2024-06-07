@@ -9,7 +9,7 @@ import UIKit
 import Then
 import SnapKit
 
-class LoginView3: UIView {
+class LoginView: UIView {
     
     private let titleLabel: UILabel = {
         let label = UILabel()
@@ -21,7 +21,7 @@ class LoginView3: UIView {
         return label
     }()
     
-    private let idTextField: UITextField = {
+    let idTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "아이디를 입력해주세요"
         textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
@@ -30,7 +30,7 @@ class LoginView3: UIView {
         return textField
     }()
     
-    private let passwordTextField: UITextField = {
+    let passwordTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "비밀번호를 입력해주세요"
         textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
@@ -39,7 +39,7 @@ class LoginView3: UIView {
         return textField
     }()
     
-    private lazy var loginButton: UIButton = {
+    lazy var loginButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
         button.setTitle("로그인하기", for: .normal)
